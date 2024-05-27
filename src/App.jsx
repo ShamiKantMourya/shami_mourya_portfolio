@@ -5,7 +5,7 @@ import { Home } from "./pages";
 import { Contact } from "./pages";
 import { About } from "./pages";
 import { Portfolio } from "./pages";
-import  Navbar  from "./components";
+import { Navbar } from "./components";
 
 function App() {
   let element = useRoutes([
@@ -29,8 +29,8 @@ function App() {
 
   return (
     <>
-    <Navbar />
-    {element}
+      <Navbar />
+      {element}
     </>
   );
 }
