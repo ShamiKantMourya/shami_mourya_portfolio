@@ -6,13 +6,14 @@ import {
     FaBriefcase,
     FaGraduationCap,
     FaCode,
+    FaGithub 
   } from 'react-icons/fa';
-  import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+  import { FiFileText, FiExternalLink } from 'react-icons/fi';
   
-  import Work1 from './assets/project-1.jpeg';
+  import Work1 from './assets/project-1.jpg';
   import Work2 from './assets/project-2.jpg';
-  import Work3 from './assets/project-3.jpeg';
-  import Work4 from './assets/project-4.jpeg';
+  import Work3 from './assets/project-3.jpg';
+  import Work4 from './assets/project-4.jpg';
   import Work5 from './assets/project-5.jpg';
   import Work6 from './assets/project-6.jpg';
   
@@ -61,88 +62,82 @@ import {
     {
       id: 1,
       title: 'First Name : ',
-      description: 'Steve',
+      description: 'Shami Kant',
     },
   
     {
       id: 2,
       title: 'Last Name : ',
-      description: 'Milner',
+      description: 'Mourya',
     },
   
     {
       id: 3,
-      title: 'Age : ',
-      description: '27 Years',
+      title: 'Nationality : ',
+      description: 'Indian',
     },
   
     {
       id: 4,
-      title: 'Nationality : ',
-      description: 'Tunisian',
+      title: 'LinkedIn : ',
+      description: 'https://www.linkedin.com/in/shami-kant-mourya-a00a711b2',
     },
   
     {
       id: 5,
-      title: 'Freelance : ',
-      description: 'Available',
+      title: 'Job availability : ',
+      description: 'Open to work',
     },
   
     {
       id: 6,
       title: 'Address : ',
-      description: 'Tunis',
+      description: 'New Delhi',
     },
   
     {
       id: 7,
       title: 'Phone : ',
-      description: '+21621184010',
+      description: '+91-7372821936',
     },
   
     {
       id: 8,
       title: 'Email : ',
-      description: 'you@mail.com',
+      description: 'Shamikant300@gmail.com',
     },
   
     {
       id: 9,
-      title: 'Skype : ',
-      description: 'steve.milner',
-    },
-  
-    {
-      id: 10,
-      title: 'Langages : ',
-      description: 'French, English',
+      title: 'Language : ',
+      description: 'English',
     },
   ];
   
   export const stats = [
     {
       id: 1,
-      no: '12+',
-      title: 'Years of <br /> Experience',
+      no: '1',
+      title: 'Year of <br /> Experience',
     },
   
     {
       id: 2,
-      no: '97+',
+      no: '10+',
       title: 'Completed <br /> Projects',
     },
   
-    {
-      id: 3,
-      no: '81+',
-      title: 'Happy <br /> Customers',
-    },
+    // {
+    //   id: 3,
+    //   no: '81+',
+    //   title: 'Happy <br /> Customers',
+    // },
   
-    {
-      id: 4,
-      no: '53+',
-      title: ' Awards <br /> Won',
-    },
+    // {
+    //   id: 4,
+    //   no: '53+',
+    //   title: ' Awards <br /> Won',
+    // },
   ];
   
   export const resume = [
@@ -150,160 +145,146 @@ import {
       id: 1,
       category: 'experience',
       icon: <FaBriefcase />,
-      year: '2018 - PRESENT',
-      title: 'Web Developer <span> Envato </span>',
+      year: '2024 - PRESENT',
+      title: 'Web Developer <span>Freelance</span>',
       desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
     },
   
     {
       id: 2,
-      category: 'experience',
-      icon: <FaBriefcase />,
-      year: '2013 - 2018',
-      title: 'UI/UX Designer <span> Themeforest </span>',
-      desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+      category: 'education',
+      icon: <FaGraduationCap />,
+      year: '2023',
+      title: 'Computer Science Engineering <span> Patel College of Science and Technology </span>',
+      desc: 'Scored 8.21 CGPA',
     },
   
     {
       id: 3,
-      category: 'experience',
-      icon: <FaBriefcase />,
-      year: '2005 - 2013',
-      title: 'Consultant <span> Videohive </span>',
-      desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+      category: 'education',
+      icon: <FaGraduationCap />,
+      year: '2019',
+      title: 'Higher Secondary Education <span> Wazirganj College </span>',
+      desc: 'Scored 80%',
     },
   
     {
       id: 4,
       category: 'education',
       icon: <FaGraduationCap />,
-      year: '2015',
-      title: 'Engineering Degree <span> Oxford University </span>',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
-    },
-  
-    {
-      id: 5,
-      category: 'education',
-      icon: <FaGraduationCap />,
-      year: '2012',
-      title: 'Master Degree <span> KIEV University </span>',
-      desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-    },
-  
-    {
-      id: 6,
-      category: 'education',
-      icon: <FaGraduationCap />,
-      year: '2009',
-      title: 'Bachelor Degree <span> Tunis High School </span>',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+      year: '2016',
+      title: 'Matriculation <span> Manav Bharti National School </span>',
+      desc: 'Scored 8.4 CGPA',
     },
   ];
   
   export const skills = [
     {
       id: 1,
-      title: 'Html',
-      percentage: '25',
+      title: 'HTML5',
+      percentage: '85',
     },
   
     {
       id: 2,
-      title: 'Javascript',
-      percentage: '89',
+      title: 'JavaScript',
+      percentage: '80',
     },
   
     {
       id: 3,
-      title: 'Css',
+      title: 'CSS3',
       percentage: '70',
     },
   
     {
       id: 4,
-      title: 'Php',
-      percentage: '66',
+      title: 'React JS',
+      percentage: '80',
     },
   
     {
       id: 5,
-      title: 'Wordpress',
-      percentage: '95',
+      title: 'TypeScript',
+      percentage: '60',
     },
   
     {
       id: 6,
-      title: 'Jquery',
-      percentage: '50',
+      title: 'Express JS',
+      percentage: '70',
     },
   
     {
       id: 7,
-      title: 'Angular',
+      title: 'MongoDB',
       percentage: '65',
     },
   
     {
       id: 8,
-      title: 'React',
-      percentage: '45',
+      title: 'Tailwind CSS',
+      percentage: '75',
+    },
+    {
+      id: 9,
+      title: 'Redux toolkit',
+      percentage: '75',
     },
   ];
   
   export const portfolio = [
     {
       id: 1,
-      img: Work1,
-      title: 'Photo Editing',
+      img: Work2,
+      title: 'Verma_Creations',
       details: [
         {
           icon: <FiFileText />,
-          title: 'Project : ',
-          desc: 'Photo',
+          title: 'Verma_Creations : ',
+          desc: 'Website for a signage boards manufacturing company located in New Delhi',
         },
         {
-          icon: <FiUser />,
-          title: 'Client : ',
-          desc: 'Dribble',
+          icon: <FaGithub />,
+          title: 'Github : ',
+          desc: 'https://github.com/ShamiKantMourya/verma_creations',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Photoshop',
+          desc: 'Typescript, React JS, Tailwind CSS',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://verma-creations.onrender.com/',
         },
       ],
     },
-  
     {
       id: 2,
-      img: Work2,
-      title: 'Website Design',
+      img: Work1,
+      title: 'Shopper Square',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Website',
-        },
-        {
-          icon: <FiUser />,
-          title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'E-Commerce website',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'React JS',
+          desc: 'React JS, Redux toolkit, Less',
+        },
+        {
+          icon: <FaGithub />,
+          title: 'Github : ',
+          desc: 'https://github.com/ShamiKantMourya/shopper-square',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://shopper-square-2968b.web.app/',
         },
       ],
     },
@@ -311,27 +292,27 @@ import {
     {
       id: 3,
       img: Work3,
-      title: 'Video Editing',
+      title: 'Harmony_Of_Words',
       details: [
         {
           icon: <FiFileText />,
-          title: 'Project : ',
-          desc: 'Video',
+          title: 'Harmony_Of_Words : ',
+          desc: `A website for people's who love to read and write poetry`,
         },
         {
-          icon: <FiUser />,
-          title: 'Client : ',
-          desc: 'Dribble',
+          icon: <FaGithub />,
+          title: 'Github : ',
+          desc: 'https://github.com/ShamiKantMourya/Harmony_Of_Word',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Premium',
+          desc: 'React JS, Redux toolkit',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://harmony-of-words-ca3m.onrender.com',
         },
       ],
     },
@@ -339,43 +320,44 @@ import {
     {
       id: 4,
       img: Work4,
-      title: 'Video Editing',
+      title: ' Food recipe store',
       details: [
         {
           icon: <FiFileText />,
-          title: 'Project : ',
-          desc: 'Video',
+          title: 'Food recipe store : ',
+          desc: 'Website for online recipes book',
         },
         {
-          icon: <FiUser />,
-          title: 'Client : ',
-          desc: 'Dribble',
+          icon: <FaGithub />,
+          title: 'Github : ',
+          desc: 'https://github.com/ShamiKantMourya/machine_coding_round_5',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Premium',
+          desc: 'React JS, Tailwind CSS',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://onlinerecipebook.netlify.app/',
         },
       ],
     },
   
     {
       id: 5,
-      img: Work5,
-      title: 'Landing Page',
+      img: Work6,
+      title: 'Fitness Tracker',
       details: [
         {
-          title: 'Project : ',
-          desc: 'Website',
+          title: 'Fitness Tracker : ',
+          desc: 'A fullstack website developed using Redux, Node JS, Express JS and MongoDB',
         },
         {
-          title: 'Client : ',
-          desc: 'Dribble',
+          icon: <FaGithub />,
+          title: 'Github : ',
+          desc: 'https://codesandbox.io/p/sandbox/fitness-tracker-lzkyjz?file=%2Fsrc%2Futils%2Fconstant.js',
         },
         {
           title: 'Language : ',
@@ -383,35 +365,35 @@ import {
         },
         {
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://lzkyjz.csb.app/',
         },
       ],
     },
   
     {
       id: 6,
-      img: Work6,
-      title: 'Photo Editing',
+      img: Work5,
+      title: 'Habit Tracker',
       details: [
         {
           icon: <FiFileText />,
-          title: 'Project : ',
-          desc: 'Photo',
+          title: 'Habit Tracker : ',
+          desc: 'Habit tracker website ',
         },
         {
-          icon: <FiUser />,
-          title: 'Client : ',
-          desc: 'Dribble',
+          icon: <FaGithub />,
+          title: 'Github : ',
+          desc: 'https://github.com/ShamiKantMourya/habit_tracker',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Photoshop',
+          desc: 'Redux toolkit, SASS, React JS',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dibble.com',
+          desc: 'https://trackhabitz.netlify.app/',
         },
       ],
     },
