@@ -1,7 +1,7 @@
 import React from 'react';
 import parse from "html-react-parser";
 
-import {stats} from "../../data";
+import {stats} from "../data";
 
 const Stats = () => {
   return (

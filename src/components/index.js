@@ -1,7 +1,7 @@
 import Navbar from "./navbar/Navbar";
-import Info from "./info/Info";
-import Stats from "./stats/Stats";
-import Skills from "./skills/Skills";
+import Info from "./Info";
+import Stats from "./Stats";
+import Skills from "./Skills";
 import ResumeItem from "./ResumeItem";
 import PortfolioItem from "./PortfolioItem";
 
