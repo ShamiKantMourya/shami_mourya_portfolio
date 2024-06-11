@@ -10,7 +10,7 @@
 .portfolio__img {
   height: 250px;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .portfolio__hover {
   background-color: var(--first-color);
@@ -55,7 +55,7 @@
 .modal__img {
   width: 100%;
   height: 350px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .modal__close {
   position: absolute;
