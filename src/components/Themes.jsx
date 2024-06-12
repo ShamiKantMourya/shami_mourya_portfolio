@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaCog } from "react-icons/fa";
 import { BsSun, BsMoon } from "react-icons/bs";
 
@@ -8,10 +8,23 @@ import "./themes.scss";
 
 const Themes = () => {
   const [showSwitcher, setShowSwitcher] = useState(false);
+  const [color, setColor] = useState("red");
+
+  const changeColor = (color) => {
+    setColor(color);
+  };
+
+  useEffect(() => {
+    document.documentElement.style.setProperty("--first-color", color);
+    localStorage.setItem("color", color)
+  }, [color]);
   return (
     <div>
       <div className={`${showSwitcher ? "show-switcher" : ""} style__switcher`}>
-        <div className="style__switcher-toggler">
+        <div
+          className="style__switcher-toggler"
+          onClick={() => setShowSwitcher(!showSwitcher)}
+        >
           <FaCog />
         </div>
         <div className="theme__toggler">
@@ -20,7 +33,7 @@ const Themes = () => {
         <h3 className="style__switcher-tittle">Style Switcher</h3>
         <div className="style__switcher-items">
           {themes.map((theme) => (
-            <ThemeItem key={theme.id} {...theme} />
+            <ThemeItem key={theme.id} {...theme} changeColor={changeColor} />
           ))}
         </div>
         <div
