@@ -6,17 +6,33 @@ import { themes } from "../data";
 import ThemeItem from "./ThemeItem";
 import "./themes.scss";
 
+const getStorageColor = () => {
+  let color = "hsl(252, 35%, 51%)";
+  if (localStorage.getItem("color")) {
+    color = localStorage.getItem("color");
+  }
+  return color;
+};
+
 const Themes = () => {
   const [showSwitcher, setShowSwitcher] = useState(false);
-  const [color, setColor] = useState("red");
+  const [color, setColor] = useState(getStorageColor());
+  const [theme, setTheme] = useState("light-theme");
 
   const changeColor = (color) => {
     setColor(color);
   };
 
+  const toggleTheme = () => {
+    if (theme === "light-theme") {
+      setTheme("dark-theme");
+    } else {
+      setTheme("light-theme");
+    }
+  };
   useEffect(() => {
     document.documentElement.style.setProperty("--first-color", color);
-    localStorage.setItem("color", color)
+    localStorage.setItem("color", color);
   }, [color]);
   return (
     <div>
