@@ -25,11 +25,11 @@ const PortfolioItem = ({ img, title, details }) => {
             <ul className="modal__list grid">
               {details?.map(({ icon, title, desc }, index) => (
                 <li className="modal__item" key={index}>
+                  <div className="modal__icon-title">
                   <span className="item__icon">{icon}</span>
-                  <div>
-                    <span className="item__title">{title}</span>
-                    <span className="item__details">{desc}</span>
+                  <span className="item__title">{title}</span>
                   </div>
+                    <a href= {desc} className="item__details">{desc}</a>
                 </li>
               ))}
             </ul>
