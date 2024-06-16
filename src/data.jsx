@@ -10,12 +10,13 @@ import {
   } from 'react-icons/fa';
   import { FiFileText, FiExternalLink } from 'react-icons/fi';
   
-  import Work1 from "./assets/project-1.jpg";
-  import Work2 from './assets/project-2.jpg';
-  import Work3 from './assets/project-3.jpg';
-  import Work4 from './assets/project-4.jpg';
-  import Work5 from './assets/project-5.jpg';
-  import Work6 from './assets/project-6.jpg';
+  // import Work1 from "./assets/project-1.jpg";
+  import Work1 from "/project-1.jpg"
+  import Work2 from '/project-2.jpg';
+  import Work3 from '/project-3.jpg';
+  import Work4 from '/project-4.jpg';
+  import Work5 from '/project-5.jpg';
+  import Work6 from '/project-6.jpg';
   
   import Theme1 from './assets/purple.png';
   import Theme2 from './assets/red.png';

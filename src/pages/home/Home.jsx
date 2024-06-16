@@ -6,7 +6,6 @@ import Profile from "../../assets/home.png";
 import "./home.scss";
 
 const Home = () => {
-  // console.log("hello")
   return (
     <section className="home section grid">
       <img src={Profile} alt="Profile" className="home__img" />
