@@ -48,21 +48,25 @@
   background-color: var(--container-color);
   max-width: 650px;
   width: 100%;
+  height: 600px;
   padding: 32px;
   border-radius: 10px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .modal__img {
   width: 100%;
-  height: 350px;
+  height: 250px;
   object-fit: contain;
 }
 .modal__close {
   position: absolute;
   top: -3.5%;
   right: -8.5%;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   filter: invert(0.8);
 }
 .modal__title {
@@ -75,14 +79,18 @@
 .modal__list {
   grid-template-columns: repeat(2, 1fr);
   row-gap: 10px;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 .modal__item {
   width: 100%;
-  height: 350px;
+  height: 100px;
   object-fit: cover;
 }
 .item__icon {
+  display: flex;
+  margin-right: 5px;
+}
+.modal__icon-title{
   display: flex;
 }
 .item__title,
