@@ -307,7 +307,7 @@ import {
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'React JS, Redux toolkit',
+          desc: 'React JS, Redux toolkit, Express JS, mongoDB',
         },
         {
           icon: <FiExternalLink />,
